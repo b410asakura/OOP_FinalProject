@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.ListController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #e7dda3;">
+         <children>
+            <AnchorPane prefHeight="90.0" prefWidth="700.0" style="-fx-background-color: #3b3b3b;">
+               <children>
+                  <Label alignment="CENTER" layoutX="280.0" layoutY="20.0" prefHeight="50.0" prefWidth="140.0" text="ToDo" textFill="WHITE">
+                     <font>
+                        <Font name="Baskerville Old Face" size="40.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ListView fx:id="listTask" layoutX="300.0" layoutY="89.0" prefHeight="308.0" prefWidth="400.0" />
+            <AnchorPane layoutX="-2.0" layoutY="89.0" prefHeight="308.0" prefWidth="278.0">
+               <children>
+                  <TextField fx:id="listTaskField" layoutX="22.0" layoutY="26.0" prefHeight="40.0" prefWidth="252.0" promptText="Task">
+                     <font>
+                        <Font name="Baskerville Old Face" size="18.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="listDescriptionField" alignment="TOP_LEFT" layoutX="22.0" layoutY="90.0" prefHeight="102.0" prefWidth="252.0" promptText="Description">
+                     <font>
+                        <Font name="Baskerville Old Face" size="18.0" />
+                     </font>
+                  </TextField>
+                  <Button fx:id="listSaveTaskButton" layoutX="73.0" layoutY="224.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="150.0" style="-fx-background-color: #b9ac5f;" text="Save Task" textFill="WHITE">
+                     <font>
+                        <Font name="Baskerville Old Face" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
