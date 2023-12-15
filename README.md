@@ -28,7 +28,3 @@ Add task and task List screens
 - ![](/oop_screenshots/addtask.PNG)
 - ![](/oop_screenshots/tasllist.PNG)
 
-Postgre screen
-- ![](/oop_screenshots/postgre.PNG)
-
-
